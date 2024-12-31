@@ -30,7 +30,12 @@ body {
             width: 100%;
         } 
         .multi {
-            display:inline-block;
+            display: inline-block;
             justify-content: center;
         }
+        .group {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
     }
