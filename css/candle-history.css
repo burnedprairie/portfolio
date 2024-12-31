@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    img {
+        display: block;
+        width: 40%;
+    }
+
+    p {
+        text-align: left;
+        width: 40%;
+    }
+
+    .title {
+        color: red;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .title {
+            width: 100%; 
+        }
+        p {
+            width: 100%; 
+        }
+        img {
+            width: 100%; 
+        }
+      }

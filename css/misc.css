@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .multi {
+    display: flex;
+    justify-content: center;
+    }
+
+    .group {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        img {
+            width: 100%;
+        } 
+        .multi {
+            display:inline-block;
+            justify-content: center;
+        }
+    }

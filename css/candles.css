@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      @media only screen and (max-width: 600px) {
+        img {
+            width: 100%; 
+        }
+        p {
+          text-align: center;
+          width: 100%; 
+      }
+      }

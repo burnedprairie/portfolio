@@ -1,0 +1,58 @@
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  body {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium
+  }
+  
+  header {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  table {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid white;
+  }
+  
+  
+  th {
+      font-weight: 100;
+      text-align: center;
+      border: 1px solid white;
+      padding: 5px
+  }
+  
+  td {
+      font-weight: 100;
+      color: white;
+      text-align: center;
+      border: 1px solid white;
+      padding: 5px
+  }
+
+  .poem {
+    color: red;
+    text-align: center;
+  }

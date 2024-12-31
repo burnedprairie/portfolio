@@ -1,0 +1,51 @@
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    .header-main-info {
+        font-weight: 100;
+    }
+
+    .sparkle-line {
+        width: 30%;
+    }
+
+    .img-me {
+        width: 30%;
+    }
+
+    .img-peace {
+        width: 30% 
+    }
+
+    @media only screen and (max-width: 600px) {
+      .sparkle-line {
+          width: 48%; 
+      }
+      .img-me {
+        width: 48%; 
+    }
+    .img-peace {
+      width: 48%; 
+  }
+    }

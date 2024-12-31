@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+        img {
+            width: 100%; 
+        }
+    }
